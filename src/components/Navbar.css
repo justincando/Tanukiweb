@@ -1,239 +1,273 @@
-#logo{
-    height:3%;
-    width:3%;
-    padding-top: 1%;
-    margin-left:18%;
+
+    #logo{
+        height:3%;
+        width:3%;
+        padding-top: 1%;
+        margin-left:18%;
+        
+    }
+    body{
+        min-width: 300px;
+        
+    }
+    .navbar{
+        position:static;
+        white-space: nowrap;
+        min-width: 100%;
+    }
     
-}
-nav{
-    position: sticky;
-    top: 0;
-    background-color: white;
-}
-#title{
-    font-size: 16px;
-    top: 40%;
-    position: absolute;
-    font-weight: bold;
-}
-#search{
-    position: absolute;
-    left: 34%;
-    top: 40%;
-    width:30%;
-}
-#mag{
-    height:18%;
-    width:1%;
-   position: absolute;
-   top:42.2%;
-   left: 62.8%;
-}
-#signin{
-   position: absolute;
-   top:34%;
-   left: 65%;
-   width: 4%;
-}
-#person{
-    height:30%;
-    width:35%;
-}
-#login{
-    position:absolute;
-    top:10%;
-}
-#checkout{
-    position: absolute;
-    top:36%;
-    left: 70%;
-    width:4%
-}
-#cart{
-    height:15%;
-    width:45%;
-}
-#basket{
-    position: absolute;
-    top:10%;
-}
-#checkout:hover{
-    border: 1px solid;
-    border-color: red;
-    cursor: pointer;
-}
-#signin:hover{
-    border: 1px solid;
-    border-color: red;
-    cursor: pointer;
-}
-#bottomNav{
-    background-color: black;
-    height: 30px;
-    z-index: 1;
-}
-#new{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: large;
-    position:absolute;
-    left: 19%;
-    top:73%;
-}
-#new:hover{
-    background-color: white;
-    color: rgb(6, 177, 91);
-    height:30px;
-    cursor: pointer;
-}
-#restock{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: large;
-    position:absolute;
-    left: 27%;
-    top:73%;
-}
-#restock:hover{
-    background-color: white;
-    color: rgb(6, 177, 91);
-    height:30px;
-    cursor: pointer;
-}
-#theme{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: large;
-    position:absolute;
-    left: 36%;
-    top:73%;
-    overflow: hidden;
-}
-#theme:hover{
-    background-color: white;
-    color: rgb(6, 177, 91);
-    height:30px;
-    cursor: pointer;
-}
-#type{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: large;
-    position:absolute;
-    left: 41%;
-    top:73%;
-}
-#type:hover{
-    background-color: white;
-    color: rgb(6, 177, 91);
-    height:30px;
-    cursor: pointer;
-}
-#companies{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: large;
-    position:absolute;
-    left: 50%;
-    top:73%;
-}
-#companies:hover{
-    background-color: white;
-    color: rgb(6, 177, 91);
-    height:30px;
-    cursor: pointer;
-}
-#deals{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: large;
-    position:absolute;
-    left: 56.5%;
-    top:73%;
-}
-#deals:hover{
-    background-color: white;
-    color: rgb(6, 177, 91);
-    height:30px;
-    cursor: pointer;
-}
-#instock{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: large;
-    position:absolute;
-    left: 61%;
-    top:73%;
+        
     
-}
-#instock:hover{
-    background-color: white;
-    color: rgb(6, 177, 91);
-    height:30px;
-    cursor: pointer;
-}
-#drops{
-    display: none;
-    position:absolute;
-    z-index: 1;
-    background-color: white;
-    left:500px;
-    top:110px;
-}
-#theme:hover + #drops{
-    display: block;
-}
-#drops:hover{
-    display: block;
-}
-td{
-    padding:20px;
+    #title{
+        
+        font-size: .8vw;
+        top: 4vh;
+        position: absolute;
+        font-weight: bold;
+        
+    }
+    #search{
+        position: absolute;
+        left: 34vw;
+        top: 4vh;
+        width:30vw;
+        height:3vh;
+        font-size: .8vw;
+    }
+    #mag{
+        height:1.8vh;
+        width:1vw;
+    position: absolute;
+    top:4.4vh;
+    left: 62.8vw;
     
-}
-td:hover{
-    border: 1px solid;
-    border-color: red;
-    cursor: pointer;
-}
-#dropstype{
-    display: none;
-    position:absolute;
-    z-index: 1;
-    background-color: white;
-    left:700px;
-    top:109px;
-}
-#type:hover + #dropstype{
-    display: block;
-}
-#dropstype:hover{
-    display: block;
-}
-#dropscomp{
-    display: none;
-    position:absolute;
-    z-index: 1;
-    background-color: white;
-    left:750px;
-    top:109px;
-}
-#companies:hover + #dropscomp{
-    display: block;
-}
-#dropscomp:hover{
-    display: block;
-}
+    }
+    #signin{
+    position: absolute;
+    top:4vh;
+    left: 65vw;
+    width: 4vw;
+    font-size: .8vw;
+    }
+    #person{
+        height:30%;
+        width:35%;
+    }
+    #login{
+        position:absolute;
+        top:10%;
+    }
+    #checkout{
+        position: absolute;
+        top:4vh;
+        left: 70%;
+        width:4%
+    }
+    #cart{
+        height:15%;
+        width:45%;
+        top:.1vh;
+    }
+    #basket{
+        position: absolute;
+        top:.1vh;
+        font-size: .8vw;
+    }
+    #checkout:hover{
+        border: 1px solid;
+        border-color: red;
+        cursor: pointer;
+    }
+    #signin:hover{
+        border: 1px solid;
+        border-color: red;
+        cursor: pointer;
+    }
+    #bottomNav{
+        background-color: black;
+        height: 4vh;
+        z-index: 1;
+        font-size: .8vw;
+    }
+    #new{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: large;
+        position:absolute;
+        left: 19%;
+        top:73%;
+        font-size: 1vw;
+    }
+    #new:hover{
+        background-color: white;
+        color: rgb(6, 177, 91);
+        height:30px;
+        cursor: pointer;
+    }
+    #restock{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: large;
+        position:absolute;
+        left: 27%;
+        top:73%;
+        font-size: 1vw;
+    }
+    #restock:hover{
+        background-color: white;
+        color: rgb(6, 177, 91);
+        height:30px;
+        cursor: pointer;
+    }
+    #theme{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: large;
+        position:absolute;
+        left: 36%;
+        top:73%;
+        overflow: hidden;
+        font-size: 1vw;
+    }
+    #theme:hover{
+        background-color: white;
+        color: rgb(6, 177, 91);
+        height:30px;
+        cursor: pointer;
+    }
+    #type{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: large;
+        position:absolute;
+        left: 41%;
+        top:73%;
+        font-size: 1vw;
+    }
+    #type:hover{
+        background-color: white;
+        color: rgb(6, 177, 91);
+        height:30px;
+        cursor: pointer;
+    }
+    #companies{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: large;
+        position:absolute;
+        left: 50%;
+        top:73%;
+        font-size: 1vw;
+    }
+    #companies:hover{
+        background-color: white;
+        color: rgb(6, 177, 91);
+        height:30px;
+        cursor: pointer;
+    }
+    #deals{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: large;
+        position:absolute;
+        left: 56.5%;
+        top:73%;
+        font-size: 1vw;
+    }
+    #deals:hover{
+        background-color: white;
+        color: rgb(6, 177, 91);
+        height:30px;
+        cursor: pointer;
+    }
+    #instock{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        font-size: large;
+        position:absolute;
+        left: 61%;
+        top:73%;
+        font-size: 1vw;
+    }
+    #instock:hover{
+        background-color: white;
+        color: rgb(6, 177, 91);
+        height:30px;
+        cursor: pointer;
+    }
+    #drops{
+        display: none;
+        position:absolute;
+        z-index: 1;
+        background-color: white;
+        left:25vw;
+        top:11.9vh;
+    }
+    #theme:hover + #drops{
+        display: block;
+    }
+    #drops:hover{
+        display: block;
+    }
+    td{
+        padding-top:.5vh;
+        padding-bottom: .5vh;
+        padding-left: .5vw;
+        padding-right: .5vw;
+        font-size: 1vw;
+    }
+    td:hover{
+        border: 1px solid;
+        border-color: red;
+        cursor: pointer;
+    }
+    #dropstype{
+        display: none;
+        position:absolute;
+        z-index: 1;
+        background-color: white;
+        left:38vw;
+        top:11.9vh;
+    }
+    #type:hover + #dropstype{
+        display: block;
+    }
+    #dropstype:hover{
+        display: block;
+    }
+    #dropscomp{
+        display: none;
+        position:absolute;
+        z-index: 1;
+        background-color: white;
+        left:42vw;
+        top:11.9vh;
+    }
+    #companies:hover + #dropscomp{
+        display: block;
+    }
+    #dropscomp:hover{
+        display: block;
+    }
+    nav{
+        width:100%;
+        height:100%;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
