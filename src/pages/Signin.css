@@ -32,7 +32,7 @@ body{
     position: absolute;
     width: 5vw;
     height: 5vh;
-    border-radius: 50% 10%;
+    border-radius: 50vh 10vw;
 }
 .loginTab:hover{
     cursor: pointer;
@@ -48,7 +48,7 @@ body{
     left:5.1vw;
     width: 5vw;
     height: 5vh;
-    border-radius: 50% 10%;
+    border-radius: 50vh 10vw;
 }
 .createAccount:hover{
     cursor: pointer;
