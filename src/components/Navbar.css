@@ -1,4 +1,8 @@
-
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
     #logo{
         height:3%;
         width:3%;
@@ -44,14 +48,14 @@
     }
     #signin{
     position: absolute;
-    top:4vh;
+    top:3.6vh;
     left: 65vw;
-    width: 4vw;
+    width: 4.4vw;
     font-size: .8vw;
     }
     #person{
-        height:30%;
-        width:35%;
+        height:45%;
+        width:45%;
     }
     #login{
         position:absolute;
@@ -60,7 +64,7 @@
     #checkout{
         position: absolute;
         top:4vh;
-        left: 70%;
+        left: 71%;
         width:4%
     }
     #cart{
@@ -88,6 +92,7 @@
         height: 4vh;
         z-index: 1;
         font-size: .8vw;
+        
     }
     #new{
         color: white;

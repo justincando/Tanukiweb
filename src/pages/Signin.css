@@ -1,0 +1,90 @@
+body{
+    font-family: 'Just Another Hand', 
+    cursive;
+    background: #f3f3f3;
+}
+
+.login{
+    position: absolute;
+    left: 3vw;
+    top: 5vh;
+}
+.form{
+    position: absolute;
+    left: 28vw;
+    top:25vh;
+    background-color: white;
+    height: 60vh;
+    width: 40vw;
+    border: 1px solid;
+}
+.loginNav{
+    position: absolute;
+    width: 40vw;
+    background-color: rgb(206, 197, 197);
+}
+.loginTab{
+    padding-left: 1vw;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+    width: 4vw;
+    height: 5vh;
+}
+.loginTab:hover{
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    z-index: 1;
+    left:67.3vw;
+    top: 20.8vh;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: red;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.x{
+    position: absolute;
+    top: -1vh;
+    left:.3vw;
+    color: white;
+}
+#emailField{
+    position: absolute;
+    width:10vw;
+    top:18vh;
+    left: 5vw;
+    width: 30vw;
+
+}
+#passwordField{
+    position: absolute;
+    width:10vw;
+    top:25vh;
+    left: 5vw;
+    width: 30vw;
+
+}
+#remember{
+    position: absolute;
+    top:32vh;
+    left: 4.8vw;
+
+}
+#Forgot{
+    padding-left: 10vw;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.create{
+    position: absolute;
+    top:39vh;
+    left: 10vw;
+}
+.createButton{
+    width:20vw;
+}
