@@ -18,21 +18,39 @@ body{
     width: 40vw;
     border: 1px solid;
 }
-.loginNav{
-    position: absolute;
-    width: 40vw;
-    background-color: rgb(206, 197, 197);
-}
 .loginTab{
-    padding-left: 1vw;
+    position: absolute;
+    left:1vw;
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-color: white;
     width: 4vw;
     height: 5vh;
 }
+.loginBorder{
+    border: 2px solid #f83600;
+    position: absolute;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 50% 10%;
+}
 .loginTab:hover{
+    cursor: pointer;
+}
+.createTab{
+    position:absolute;
+    left: .5vw;
+    top:-2vh;
+}
+.createAccount{
+    border: 2px solid #f83600;
+    position: absolute;
+    left:5.1vw;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 50% 10%;
+}
+.createAccount:hover{
     cursor: pointer;
 }
 .close{

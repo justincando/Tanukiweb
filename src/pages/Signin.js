@@ -13,7 +13,12 @@ export default function Signin(){
             <div className="border">
                 <form className="form">
                     <div className="loginNav">
-                        <p className="loginTab">Login</p>
+                        <span className="loginBorder">
+                            <p className="loginTab">Login</p>
+                        </span>
+                        <span className="createAccount">
+                            <p className="createTab">Create</p>
+                        </span>
                     </div>    
                     <h2 className="login">Login</h2>
                     <input type={"text"} placeholder="Email" id ="emailField" name="email" onChange={(e) =>{setEmail(e.target.value)}}/>
