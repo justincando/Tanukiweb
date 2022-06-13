@@ -33,6 +33,8 @@ body{
     width: 5vw;
     height: 5vh;
     border-radius: 50vh 10vw;
+    
+    background-color: rgb(212, 193, 193);
 }
 .loginTab:hover{
     cursor: pointer;
@@ -49,6 +51,7 @@ body{
     width: 5vw;
     height: 5vh;
     border-radius: 50vh 10vw;
+    background-color: rgb(212, 193, 193);
 }
 .createAccount:hover{
     cursor: pointer;
