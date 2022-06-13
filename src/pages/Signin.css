@@ -30,6 +30,7 @@ body{
 .loginTab{
     position: absolute;
     left:1vw;
+    align-self: center;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -58,6 +59,7 @@ body{
     cursor: pointer;
 }
 .createTab{
+    align-self: center;
     position:absolute;
     left: .5vw;
     top:-2vh;

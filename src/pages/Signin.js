@@ -26,8 +26,8 @@ export default function Signin(){
                         <span className="loginBorder">
                             <p className="loginTab">Login</p>
                         </span>
-                        <span className="createAccount">
-                            <p className="createTab" onClick={()=>setLogin(false)}>Create</p>
+                        <span className="createAccount" onClick={()=>setLogin(false)}>
+                            <p className="createTab" >Create</p>
                         </span>
                     </div>
                         <h2 className="login">Login</h2>
