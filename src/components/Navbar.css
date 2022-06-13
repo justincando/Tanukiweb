@@ -10,6 +10,15 @@ body{
         margin-left:18%;
         
     }
+    #logo:visited{
+        color:black;
+    }
+    #title:link{
+        color: black;
+    }
+    #title:visited{
+        color:black;
+    }
     body{
         min-width: 300px;
         
@@ -19,7 +28,15 @@ body{
         white-space: nowrap;
         min-width: 100%;
     }
-    
+    .navbar:visited{
+        color:black;
+    }
+    .homeLink:visited{
+        color:black;
+    }
+    .loginLink:visited{
+        color:black;
+    }
         
     
     #title{
@@ -60,6 +77,12 @@ body{
     #login{
         position:absolute;
         top:10%;
+    }
+    #login:link{
+        color: black;
+    }
+    #login:visited{
+        color:black;
     }
     #checkout{
         position: absolute;

@@ -13,13 +13,13 @@ export default function Navbar(){
         <nav>
             <div className= "navbar">
                 <div id = "topNav">
-                    <Link to ="/">
+                    <Link to ="/" className="homeLink">
                         <img src = {logo} alt ="tanuki" id = "logo" />
                         <span id ="title">TANUKI toys & collectibles, LLC</span>
                     </Link>
                     <input type={"search"} id = "search" placeholder="Search"/>
                     <img src = {search} alt = "search" id = "mag" />
-                    <Link to ="/login">
+                    <Link to ="/login" className="loginLink">
                         <span id = "signin" >
                             <img src = {person} alt ="person" id = "person" />
                             <span id="login" >Sign in</span>
